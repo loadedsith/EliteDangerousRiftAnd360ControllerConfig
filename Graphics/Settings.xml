@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GraphicsOptions>
+	<Version>1</Version>
+	<PresetName>Custom</PresetName>
+	<StereoscopicMode>3</StereoscopicMode>
+	<IPDAmount>0.003000</IPDAmount>
+	<AMDCrashFix>false</AMDCrashFix>
+	<FOV>56.249001</FOV>
+	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
+	<HighResScreenCapScale>4</HighResScreenCapScale>
+	<GammaOffset>-0.003673</GammaOffset>
+	<DisableGuiEffects>false</DisableGuiEffects>
+	<StereoFocalDistance>24.976536</StereoFocalDistance>
+	<StencilDump>false</StencilDump>
+</GraphicsOptions>

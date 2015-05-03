@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root>
+	<TextureQuality>1</TextureQuality>
+	<LODDistanceScale>1.000000</LODDistanceScale>
+	<AAMode>4</AAMode>
+	<ShadowQuality>4</ShadowQuality>
+	<AOQuality>1</AOQuality>
+	<BlurEnabled>true</BlurEnabled>
+	<BloomQuality>1</BloomQuality>
+	<EnvmapQuality>1</EnvmapQuality>
+	<MaterialQuality>3</MaterialQuality>
+	<EnvironmentQuality>3</EnvironmentQuality>
+	<FXQuality>3</FXQuality>
+	<OculusPixelsPerDisplayPixel>1.000000</OculusPixelsPerDisplayPixel>
+	<GalaxyMapQuality>2</GalaxyMapQuality>
+	<GUIColourQuality>0</GUIColourQuality>
+	<SSAAMultiplier>1.000000</SSAAMultiplier>
+</Root>
