@@ -2,7 +2,7 @@
 <GraphicsOptions>
 	<Version>1</Version>
 	<PresetName>Custom</PresetName>
-	<StereoscopicMode>3</StereoscopicMode>
+	<StereoscopicMode>4</StereoscopicMode>
 	<IPDAmount>0.003000</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>
 	<FOV>56.249001</FOV>
