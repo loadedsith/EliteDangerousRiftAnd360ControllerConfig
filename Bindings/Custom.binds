@@ -406,7 +406,9 @@
 	</ResetPowerDistribution>
 	<OculusReset>
 		<Primary Device="Keyboard" Key="Key_F12" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_DPadUp">
+			<Modifier Device="GamePad" Key="Pad_B" />
+		</Secondary>
 	</OculusReset>
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
