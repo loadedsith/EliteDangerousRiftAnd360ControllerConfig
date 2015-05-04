@@ -454,15 +454,11 @@
 	</UIFocus>
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="GamePad" Key="Pad_DPadLeft">
-			<Modifier Device="GamePad" Key="Pad_X" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="GamePad" Key="Pad_DPadRight">
-			<Modifier Device="GamePad" Key="Pad_X" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
