@@ -470,7 +470,9 @@
 	</QuickCommsPanel>
 	<FocusCommsPanel>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_DPadRight">
+			<Modifier Device="GamePad" Key="Pad_X" />
+		</Secondary>
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
 	<GalaxyMapOpen>
