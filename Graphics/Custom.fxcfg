@@ -3,8 +3,8 @@
 	<TextureQuality>1</TextureQuality>
 	<LODDistanceScale>1.000000</LODDistanceScale>
 	<AAMode>4</AAMode>
-	<ShadowQuality>4</ShadowQuality>
-	<AOQuality>1</AOQuality>
+	<ShadowQuality>1</ShadowQuality>
+	<AOQuality>0</AOQuality>
 	<BlurEnabled>true</BlurEnabled>
 	<BloomQuality>1</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
