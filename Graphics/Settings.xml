@@ -3,7 +3,7 @@
 	<Version>1</Version>
 	<PresetName>Custom</PresetName>
 	<StereoscopicMode>4</StereoscopicMode>
-	<IPDAmount>0.003000</IPDAmount>
+	<IPDAmount>0.0634</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>
 	<FOV>56.249001</FOV>
 	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
