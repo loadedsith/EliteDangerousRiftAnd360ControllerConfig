@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root PresetName="">
+	<GunsightMode Value="Bindings_TraditionalGunsights" />
+	<DashboardGUIBrightness Value="0.85230780" />
+	<ReportCrimesAgainstMe Value="1" />
+	<Language Value="English" />
+	<SensorScaleType Value="Logarithmic" />
+	<PilotIsFemale Value="0" />
+	<PreFlightChecksActive Value="0" />
+	<DisableUiCameraLockOn Value="1" />
+	<OrbitLinesEnabled Value="0" />
+	<PreferredWeaponMode Value="3" />
+	<StarNames Value="1" />
+	<RegionNames Value="1" />
+	<TradeRoutes Value="1" />
+	<Constellations Value="0" />
+	<ShowGrid Value="1" />
+	<NavigationMarkers Value="1" />
+	<SystemConnectors Value="1" />
+	<SystemConnectorsDefault Value="1" />
+	<NebulaNames Value="1" />
+	<RealisticView Value="0" />
+	<ColourVisIndex Value="0" />
+	<SizeVisIndex Value="1" />
+	<FriendMarkers Value="1" />
+	<WingMarkers Value="1" />
+	<MissionMarkers Value="1" />
+	<ShipMarkers Value="1" />
+	<PoliticsMode Value="0" />
+	<VisibilityFlags>
+		<categories>
+			<IndustrialMaterials Value="0" />
+			<Technology Value="0" />
+			<Medicines Value="0" />
+			<Metals Value="0" />
+			<Minerals Value="0" />
+			<Narcotics Value="0" />
+			<Chemicals Value="0" />
+			<ConsumerItems Value="0" />
+			<Foods Value="1" />
+			<Machinery Value="0" />
+			<Weapons Value="0" />
+			<Textiles Value="0" />
+			<Other Value="0" />
+		</categories>
+		<faction>
+			<Empire Value="1" />
+			<Alliance Value="1" />
+			<None Value="1" />
+			<Independent Value="1" />
+			<Federation Value="1" />
+		</faction>
+		<tradeData>
+			<dataAvailable Value="1" />
+			<noData Value="1" />
+			<data Value="1" />
+		</tradeData>
+		<commodities>
+			<bioreducinglichen Value="0" />
+			<titanium Value="0" />
+			<explosives Value="0" />
+			<animalmeat Value="0" />
+			<gallium Value="0" />
+			<atmosphericextractors Value="0" />
+			<progenitorcells Value="0" />
+			<beryllium Value="0" />
+			<foodcartridges Value="0" />
+			<cobalt Value="0" />
+			<nonlethalweapons Value="0" />
+			<tobacco Value="0" />
+			<CombatStabilisers Value="0" />
+			<copper Value="0" />
+			<marinesupplies Value="0" />
+			<uraninite Value="0" />
+			<SyntheticMeat Value="0" />
+			<computercomponents Value="0" />
+			<fruitandvegetables Value="0" />
+			<indite Value="0" />
+			<heliostaticfurnaces Value="0" />
+			<tea Value="1" />
+			<aluminium Value="0" />
+			<beer Value="0" />
+			<AnimalMonitors Value="0" />
+			<Robotics Value="0" />
+			<naturalfabrics Value="0" />
+			<basicmedicines Value="0" />
+			<palladium Value="0" />
+			<cropharvesters Value="0" />
+			<performanceenhancers Value="0" />
+			<clothing Value="0" />
+			<superconductors Value="0" />
+			<gallite Value="0" />
+			<rutile Value="0" />
+			<hazardousenvironmentsuits Value="0" />
+			<battleweapons Value="0" />
+			<bertrandite Value="0" />
+			<AquaponicSystems Value="0" />
+			<gold Value="0" />
+			<hydrogenfuel Value="0" />
+			<imperialslaves Value="0" />
+			<mineralextractors Value="0" />
+			<scrap Value="0" />
+			<autofabricators Value="1" />
+			<syntheticfabrics Value="0" />
+			<leather Value="0" />
+			<lithium Value="0" />
+			<tantalum Value="0" />
+			<algae Value="0" />
+			<liquor Value="1" />
+			<uranium Value="0" />
+			<terrainenrichmentsystems Value="0" />
+			<waterpurifiers Value="0" />
+			<resonatingseparators Value="0" />
+			<domesticappliances Value="0" />
+			<grain Value="0" />
+			<Pesticides Value="0" />
+			<coltan Value="0" />
+			<Platinum Value="0" />
+			<powergenerators Value="0" />
+			<consumertechnology Value="0" />
+			<AdvancedCatalysers Value="0" />
+			<biowaste Value="0" />
+			<reactivearmour Value="0" />
+			<indium Value="0" />
+			<silver Value="0" />
+			<personalweapons Value="0" />
+			<mineraloil Value="0" />
+			<agriculturalmedicines Value="0" />
+			<wine Value="0" />
+			<polymers Value="0" />
+			<bauxite Value="0" />
+			<fish Value="0" />
+			<lepidolite Value="0" />
+			<semiconductors Value="0" />
+			<basicnarcotics Value="0" />
+			<coffee Value="0" />
+		</commodities>
+	</VisibilityFlags>
+	<VisibilityValues>
+		<population>
+			<min Value="0.00000000" />
+			<max Value="99999997952.00000000" />
+		</population>
+	</VisibilityValues>
+</Root>

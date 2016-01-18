@@ -6,9 +6,9 @@
 	<FullScreen>1</FullScreen>
 	<PresentInterval>1</PresentInterval>
 	<Adapter>0</Adapter>
-	<Monitor>1</Monitor>
-	<DX11_RefreshRateNumerator>74999</DX11_RefreshRateNumerator>
-	<DX11_RefreshRateDenominator>1000</DX11_RefreshRateDenominator>
+	<Monitor>0</Monitor>
+	<DX11_RefreshRateNumerator>60000</DX11_RefreshRateNumerator>
+	<DX11_RefreshRateDenominator>1001</DX11_RefreshRateDenominator>
 	<LimitFrameRate>false</LimitFrameRate>
 	<MaxFramesPerSecond>30</MaxFramesPerSecond>
 </DisplayConfig>

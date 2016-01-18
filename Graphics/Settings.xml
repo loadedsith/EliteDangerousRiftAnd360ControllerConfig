@@ -2,8 +2,8 @@
 <GraphicsOptions>
 	<Version>1</Version>
 	<PresetName>Custom</PresetName>
-	<StereoscopicMode>4</StereoscopicMode>
-	<IPDAmount>0.0634</IPDAmount>
+	<StereoscopicMode>0</StereoscopicMode>
+	<IPDAmount>0.063400</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>
 	<FOV>56.249001</FOV>
 	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
@@ -12,4 +12,5 @@
 	<DisableGuiEffects>false</DisableGuiEffects>
 	<StereoFocalDistance>24.976536</StereoFocalDistance>
 	<StencilDump>false</StencilDump>
+	<ShaderWarming>true</ShaderWarming>
 </GraphicsOptions>

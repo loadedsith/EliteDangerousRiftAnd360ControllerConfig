@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root>
-	<TextureQuality>1</TextureQuality>
+<Root PresetName="Custom">
+	<TextureQualityEx>0</TextureQualityEx>
+	<TextureQuality>0</TextureQuality>
 	<LODDistanceScale>1.000000</LODDistanceScale>
 	<AAMode>4</AAMode>
-	<ShadowQuality>1</ShadowQuality>
-	<AOQuality>0</AOQuality>
+	<ShadowQuality>0</ShadowQuality>
+	<AOQuality>1</AOQuality>
 	<BlurEnabled>true</BlurEnabled>
-	<BloomQuality>1</BloomQuality>
+	<BloomQuality>0</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
 	<MaterialQuality>3</MaterialQuality>
 	<EnvironmentQuality>3</EnvironmentQuality>
 	<FXQuality>3</FXQuality>
-	<OculusPixelsPerDisplayPixel>1.000000</OculusPixelsPerDisplayPixel>
+	<HMDPixelsPerDisplayPixel>1.000000</HMDPixelsPerDisplayPixel>
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
+	<TerrainQuality>0</TerrainQuality>
+	<GpuSchedulerMultiplier>0.900000</GpuSchedulerMultiplier>
+	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
 </Root>
