@@ -16,7 +16,7 @@
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
-	<TerrainQuality>0</TerrainQuality>
-	<GpuSchedulerMultiplier>0.900000</GpuSchedulerMultiplier>
+	<TerrainQuality>3</TerrainQuality>
+	<GpuSchedulerMultiplier>1.000000</GpuSchedulerMultiplier>
 	<SurfaceMaterialQuality>2</SurfaceMaterialQuality>
 </Root>
