@@ -16,7 +16,7 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_RZAxis" />
+		<Binding Device="T16000M" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -36,7 +36,7 @@
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisRaw>
@@ -49,7 +49,7 @@
 		<Secondary Device="Keyboard" Key="Key_Numpad_9" />
 	</RollRightButton>
 	<PitchAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_YAxis" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisRaw>
@@ -180,7 +180,7 @@
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="Keyboard" Key="Key_Numpad_3" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_4">
+		<Secondary Device="T16000M" Key="Joy_4">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</SetSpeed75>
@@ -261,15 +261,15 @@
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
 		<Primary Device="Keyboard" Key="Key_R" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</ForwardThrustButton_Landing>
 	<BackwardThrustButton_Landing>
 		<Primary Device="Keyboard" Key="Key_F" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_4" />
+		<Secondary Device="T16000M" Key="Joy_4" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<YawToRollMode_FAOff Value="" />
@@ -283,8 +283,8 @@
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_9">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Secondary Device="T16000M" Key="Joy_3">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_9" />
 		</Secondary>
 	</Supercruise>
 	<Hyperspace>
@@ -316,55 +316,53 @@
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
 		<Primary Device="Keyboard" Key="Key_H" />
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_10">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right">
+		<Secondary Device="T16000M" Key="Joy_POV1Left">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
 		<Primary Device="Keyboard" Key="Key_7" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_5" />
 	</TargetWingman0>
 	<TargetWingman1>
 		<Primary Device="Keyboard" Key="Key_8" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_6" />
 	</TargetWingman1>
 	<TargetWingman2>
 		<Primary Device="Keyboard" Key="Key_9" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_7" />
 	</TargetWingman2>
 	<SelectTargetsTarget>
 		<Primary Device="Keyboard" Key="Key_0" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_8" />
 	</SelectTargetsTarget>
 	<WingNavLock>
 		<Primary Device="Keyboard" Key="Key_Minus" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_9" />
 	</WingNavLock>
 	<CycleNextSubsystem>
 		<Primary Device="Keyboard" Key="Key_RightBracket" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
 		<Primary Device="Keyboard" Key="Key_LeftBracket" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down">
+		<Secondary Device="T16000M" Key="Joy_POV1Down">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</CyclePreviousSubsystem>
@@ -373,21 +371,21 @@
 		<Primary Device="Keyboard" Key="Key_0">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_7">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Secondary Device="T16000M" Key="Joy_3">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_1" />
+		<Secondary Device="T16000M" Key="Joy_1" />
 	</PrimaryFire>
 	<SecondaryFire>
 		<Primary Device="Mouse" Key="Mouse_2" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_3" />
+		<Secondary Device="T16000M" Key="Joy_2" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_3">
+		<Secondary Device="T16000M" Key="Joy_2">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</CycleFireGroupNext>
@@ -399,7 +397,7 @@
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
 		<Primary Device="Keyboard" Key="Key_U" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_1">
+		<Secondary Device="T16000M" Key="Joy_1">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</DeployHardpointToggle>
@@ -409,7 +407,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
@@ -428,33 +426,32 @@
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
 		<Primary Device="Keyboard" Key="Key_PageUp" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right">
+		<Secondary Device="T16000M" Key="Joy_POV1Up">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
 		</Secondary>
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
 		<Primary Device="Keyboard" Key="Key_PageDown" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left">
+		<Secondary Device="T16000M" Key="Joy_POV1Left">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+			<Modifier Device="T16000M" Key="Joy_POV1Up" />
 		</Secondary>
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
 		<Primary Device="Keyboard" Key="Key_UpArrow" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
 		<Primary Device="Keyboard" Key="Key_RightArrow" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
 		<Primary Device="Keyboard" Key="Key_LeftArrow" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
 		<Primary Device="Keyboard" Key="Key_DownArrow" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</ResetPowerDistribution>
 	<HMDReset>
 		<Primary Device="{NoDevice}" Key="" />
@@ -463,20 +460,20 @@
 	<ToggleCargoScoop>
 		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_6">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
 		<Primary Device="Keyboard" Key="Key_End" />
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_11">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_5">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</LandingGearToggle>
 	<MicrophoneMute>
@@ -489,14 +486,14 @@
 	<CqcMuteButtonMode Value="mute_toggle" />
 	<UseShieldCell>
 		<Primary Device="Keyboard" Key="Key_B" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_1">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Secondary Device="T16000M" Key="Joy_1">
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</UseShieldCell>
 	<FireChaffLauncher>
 		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_3">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Secondary Device="T16000M" Key="Joy_2">
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
@@ -513,11 +510,11 @@
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_13" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
 		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_12" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
 	<QuickCommsPanel>
@@ -526,16 +523,16 @@
 	</QuickCommsPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_11" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
 		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_14" />
 	</FocusRightPanel>
-	<LeftPanelFocusOptions Value="FocusOption_Nothing" />
-	<CommsPanelFocusOptions Value="FocusOption_Nothing" />
-	<RolePanelFocusOptions Value="FocusOption_Nothing" />
-	<RightPanelFocusOptions Value="FocusOption_Nothing" />
+	<LeftPanelFocusOptions Value="" />
+	<CommsPanelFocusOptions Value="FocusOption_Show" />
+	<RolePanelFocusOptions Value="" />
+	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="Keyboard" Key="Key_M" />
@@ -559,7 +556,7 @@
 	<HeadLookToggle>
 		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_8">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
@@ -569,27 +566,27 @@
 	</Pause>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</UI_Up>
 	<UI_Down>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</UI_Down>
 	<UI_Left>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left" />
 	</UI_Left>
 	<UI_Right>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right" />
 	</UI_Right>
 	<UI_Select>
 		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_1" />
+		<Secondary Device="T16000M" Key="Joy_1" />
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Secondary Device="T16000M" Key="Joy_2" />
 	</UI_Back>
 	<CycleNextPanel>
 		<Primary Device="Keyboard" Key="Key_E" />
@@ -604,7 +601,7 @@
 	<MouseHeadlookSensitivity Value="0.50000000" />
 	<HeadlookDefault Value="0" />
 	<HeadlookIncrement Value="0.00000000" />
-	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
+	<HeadlookMode Value="Bindings_HeadlookModeDirect" />
 	<HeadlookResetOnToggle Value="1" />
 	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
@@ -613,32 +610,32 @@
 	</HeadLookReset>
 	<HeadLookPitchUp>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Up" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</HeadLookPitchUp>
 	<HeadLookPitchDown>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Down" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Left" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left" />
 	</HeadLookYawLeft>
 	<HeadLookYawRight>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_POV1Right" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_ZAxis" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
@@ -651,43 +648,47 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_RZAxis" />
+		<Binding Device="T16000M" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
 	<CamYawLeft>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Neg_Joy_UAxis">
+			<Modifier Device="T16000M" Key="Joy_3" />
+		</Secondary>
 	</CamYawLeft>
 	<CamYawRight>
 		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Pos_Joy_UAxis">
+			<Modifier Device="T16000M" Key="Joy_3" />
+		</Secondary>
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</CamTranslateForward>
 	<CamTranslateBackward>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
-		<Inverted Value="0" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left" />
 	</CamTranslateLeft>
 	<CamTranslateRight>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right" />
 	</CamTranslateRight>
 	<CamTranslateZAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -703,26 +704,26 @@
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_6" />
 	</CamTranslateDown>
 	<CamZoomAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Binding Device="T16000M" Key="Joy_UAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.08478261" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Pos_Joy_UAxis" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Neg_Joy_UAxis" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomOut>
 	<CamTranslateZHold>
-		<Primary Device="ThrustMasterTFlightHOTASX" Key="Joy_2" />
+		<Primary Device="T16000M" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</CamTranslateZHold>
 	<ToggleDriveAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_4" />
+		<Secondary Device="T16000M" Key="Joy_4" />
 		<ToggleOn Value="1" />
 	</ToggleDriveAssist>
 	<DriveAssistDefault Value="1" />
@@ -733,7 +734,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="0" />
 	<SteeringAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -746,8 +747,8 @@
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Pos_Joy_UAxis" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
-		<Inverted Value="0" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
@@ -759,7 +760,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_YAxis" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
@@ -778,11 +779,11 @@
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
 		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_1" />
+		<Secondary Device="T16000M" Key="Joy_1" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="Mouse" Key="Mouse_2" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_3" />
+		<Secondary Device="T16000M" Key="Joy_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="Keyboard" Key="Key_LeftControl" />
@@ -806,7 +807,7 @@
 	<MouseTurretYMode Value="Bindings_MousePitchInverted" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_XAxis" />
+		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -819,8 +820,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="ThrustMasterTFlightHOTASX" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Binding Device="T16000M" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
@@ -863,28 +864,32 @@
 	</DecreaseSpeedButtonPartial>
 	<IncreaseEnginesPower_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up" />
 	</IncreaseEnginesPower_Buggy>
 	<IncreaseWeaponsPower_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right" />
 	</IncreaseWeaponsPower_Buggy>
 	<IncreaseSystemsPower_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left" />
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_3">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_6" />
+		</Secondary>
 		<ToggleOn Value="0" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_11">
+			<Modifier Device="T16000M" Key="Joy_3" />
+		</Secondary>
 	</EjectAllCargo_Buggy>
 	<UIFocus_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
