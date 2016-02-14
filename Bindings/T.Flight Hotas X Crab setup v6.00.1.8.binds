@@ -283,8 +283,8 @@
 	</HyperSuperCombination>
 	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="T16000M" Key="Joy_3">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_9" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_9">
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</Supercruise>
 	<Hyperspace>
@@ -316,9 +316,7 @@
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="T16000M" Key="Joy_POV1Right">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
 		<Primary Device="Keyboard" Key="Key_H" />
@@ -371,8 +369,8 @@
 		<Primary Device="Keyboard" Key="Key_0">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="T16000M" Key="Joy_3">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_7">
+			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -426,8 +424,9 @@
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
 		<Primary Device="Keyboard" Key="Key_PageUp" />
-		<Secondary Device="T16000M" Key="Joy_POV1Up">
+		<Secondary Device="T16000M" Key="Joy_POV1Right">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+			<Modifier Device="T16000M" Key="Joy_POV1Up" />
 		</Secondary>
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
@@ -536,17 +535,13 @@
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_11">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="T16000M" Key="Joy_15" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="T16000M" Key="Joy_16" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="Keyboard" Key="Key_F1" />
@@ -671,24 +666,32 @@
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="T16000M" Key="Joy_POV1Up" />
+		<Secondary Device="T16000M" Key="Joy_POV1Up">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CamTranslateForward>
 	<CamTranslateBackward>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="T16000M" Key="Joy_POV1Down" />
+		<Secondary Device="T16000M" Key="Joy_POV1Down">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
 		<Binding Device="T16000M" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="T16000M" Key="Joy_POV1Left" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CamTranslateLeft>
 	<CamTranslateRight>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="T16000M" Key="Joy_POV1Right" />
+		<Secondary Device="T16000M" Key="Joy_POV1Right">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CamTranslateRight>
 	<CamTranslateZAxis>
 		<Binding Device="{NoDevice}" Key="" />
