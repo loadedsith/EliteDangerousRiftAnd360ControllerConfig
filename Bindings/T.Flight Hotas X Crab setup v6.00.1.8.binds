@@ -326,13 +326,15 @@
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="T16000M" Key="Joy_POV1Left">
+		<Secondary Device="T16000M" Key="Joy_POV1Right">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
 		</Secondary>
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000M" Key="Joy_POV1Left">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
+		</Secondary>
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
 		<Primary Device="Keyboard" Key="Key_7" />
@@ -764,7 +766,7 @@
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
 		<Binding Device="T16000M" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -824,7 +826,7 @@
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
 		<Binding Device="T16000M" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
