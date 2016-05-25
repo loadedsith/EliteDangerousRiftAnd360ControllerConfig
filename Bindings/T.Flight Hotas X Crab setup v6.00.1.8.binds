@@ -18,7 +18,7 @@
 	<YawAxisRaw>
 		<Binding Device="T16000M" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.10000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="Keyboard" Key="Key_Numpad_4" />
@@ -38,7 +38,7 @@
 	<RollAxisRaw>
 		<Binding Device="T16000M" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.10000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="Keyboard" Key="Key_A" />
