@@ -420,8 +420,8 @@
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="T16000M" Key="Joy_UAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
@@ -555,7 +555,7 @@
 		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_8">
 			<Modifier Device="T16000M" Key="Joy_3" />
 		</Secondary>
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</HeadLookToggle>
 	<Pause>
 		<Primary Device="Keyboard" Key="Key_P" />
@@ -753,7 +753,7 @@
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
 		<Binding Device="T16000M" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
@@ -766,7 +766,7 @@
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
 		<Binding Device="T16000M" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -888,7 +888,7 @@
 		<Secondary Device="T16000M" Key="Joy_3">
 			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_6" />
 		</Secondary>
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
